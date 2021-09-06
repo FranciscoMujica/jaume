@@ -1,0 +1,66 @@
+.testimony{
+    margin-top: 145rem;
+    padding: 2rem;
+}
+
+.testimony-image img{
+    max-inline-size: 100%;
+}
+
+
+
+
+.testimony.iphone{
+margin-top: 0rem;
+}
+
+@media screen and (min-width: 768px) {
+    .testimony{
+        margin-top: 90rem;
+        display: flex;
+        align-items: center;
+        padding-block-start:80px ;
+        padding-block-end:40px ;
+        margin-bottom: 0rem;
+    }
+        .testimony.ipad{
+            margin: 10rem;
+    }
+
+
+    .testimony.iphone{
+        margin-top: 10rem;
+    }
+
+    .testimony-description{
+        flex: 1;
+    }
+
+    .testimony:nth-child(odd) .testimony-image {
+        order: 2;
+        flex: 1;
+        text-align: center;
+    }
+ }
+.testimony-title{
+    background: var(--purpura);
+    align-self: flex-start;
+    color: var(--white);
+    font: var(--headline5);
+    text-decoration: none;
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    margin-inline-start: 4px;
+    box-shadow: -4px 4px 0 var(--white);
+}
+
+.testimony-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.testimony-image{
+}

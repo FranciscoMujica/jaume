@@ -1,0 +1,49 @@
+@import "/css/button.css";
+@import "/css/header.css";
+@import "/css/icons.css";
+@import "/css/hero.css";
+@import "/css/wrapper.css";
+@import "/css/menu.css";
+@import "/css/testimonios.css";
+@import "/css/testimony.css";
+@import "/css/footer.css";
+@import "/css/form.css";
+
+:root{
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --fuentePrincipal:  'Noto Sans JP', sans-serif;
+    --headline1: bold 95px/153.71px var(--fuentePrincipal);
+    --headline2: bold 59px/95px var(--fuentePrincipal);
+    --headline3: bold 48px/77px var(--fuentePrincipal);
+    --headline4: bold 34px/55px var(--fuentePrincipal);
+    --headline5: bold 24px/38px var(--fuentePrincipal);
+    --body1: 16px/25px var(--fuentePrincipal);
+    --body2: 14px/22px var(--fuentePrincipal);
+    --button: bold 14px/22px var(--fuentePrincipal);
+    --caption: 12px/19px var(--fuentePrincipal);
+
+    --purpura:#310A90;
+    --verde: #42E2B8;
+    --white: #fff;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body{
+    background: var(--gradient);
+    min-block-size: 200vh;
+    font: var(--body1);
+    color: var(--purpura);
+}
+
+
+
+

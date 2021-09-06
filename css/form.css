@@ -1,0 +1,83 @@
+/* Formulario */
+
+.form{
+    background-color:var(--secundary);
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.form fieldset{
+    border: none;
+}
+
+.form legend{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    color: var(--primary);
+}
+
+/* contacto */
+
+
+.campo{
+    margin-bottom: 2rem;
+}
+
+.campo label{
+    color: var(--white);
+    font-weight: 700;
+    display: block;
+    margin-bottom: .3rem;
+}
+
+.text{
+    background-color: ;
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .7rem;
+}
+
+.btn2{
+    background-color: var(--primary);
+    color: var(--black);
+}
+
+.btn2:hover{
+    cursor: pointer;
+}
+
+.submit .btn2{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .contenedor-campos{
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .contacto h2{
+        text-align: center;
+    }
+
+
+
+ }
+
+ .contacto h2{
+    text-align: center;
+}
+
+.btn2{
+    background-color: var(--purpura);
+    text-decoration: none;
+    padding: 1rem;
+    border: none;
+    color: var(--white);
+    border-radius: 5px;
+}
